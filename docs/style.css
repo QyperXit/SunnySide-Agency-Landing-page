@@ -168,7 +168,7 @@ img {
 
 .text- {
   place-content: center;
-  height: min(40vh, 40em);
+  height: min(50vh, 40em);
   padding-inline: min(10vw, 12em);
   display: grid;
 }
