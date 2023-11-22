@@ -93,6 +93,7 @@ header nav ul {
   text-decoration: none;
   list-style: none;
   display: inline-flex;
+  z-index: 10;
 }
 
 header nav ul li:hover {
