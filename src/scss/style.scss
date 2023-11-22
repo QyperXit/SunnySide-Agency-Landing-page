@@ -118,7 +118,7 @@ header {
 	.downArrow {
 		width: 1.85em;
 		margin-inline: auto;
-		margin-top: 4.65em;
+		margin-top: 3.85em;
 	}
 
 	nav {
@@ -220,14 +220,8 @@ img {
 .text- {
 	display: grid;
 	place-content: center;
-	// padding: 3.3em 12em;
 	height: min(40vh, 40em);
-	// padding-top: min(10vh, 3.3em);
-	// padding-bottom: min(10vh, 3.3em);
 	padding-inline: min(10vw, 12em);
-	// padding: clamp(3.3em, 8vw, 12em) 12em;
-	// padding-top: 4.1em;
-
 	h2 {
 		margin-top: min(17vh, 12em);
 		font-family: "Fraunces";
@@ -262,12 +256,6 @@ img {
 	background-image: url("https://i.ibb.co/0VVkfMc/image-photography.jpg");
 	background-size: cover;
 }
-
-// @media (max-width: 927px) {
-// 	.text {
-// 		padding: 0.5rem;
-// 	}
-// }
 
 .client {
 	// border: 1px solid lime;
