@@ -75,7 +75,8 @@ header .sunnyside {
 header .downArrow {
   margin-inline: auto;
   width: 1.85em;
-  margin-top: 3.85em;
+  margin-top: 6.55em;
+  scale: 1.2;
 }
 
 header nav {
@@ -175,7 +176,7 @@ img {
 
 .text- h2 {
   color: #25564b;
-  margin-top: min(17vh, 12em);
+  margin-top: 12em;
   margin-inline: auto;
   font-family: Fraunces;
   font-size: 1.9em;
