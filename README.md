@@ -50,7 +50,7 @@ The landing page ought to be responsive, and the navigation should smoothly scro
 
 ## Screenshots
 
-![Alt text](desktop.png)![Alt text](desktop-bottom.png)
+![Desktop](desktop1.png)![Desktop](desktop-bottom1.png)![mobile](mobile4.png)
 
 ## Acknowledgments
 
