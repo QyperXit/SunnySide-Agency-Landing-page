@@ -136,6 +136,7 @@ header {
 			display: inline-flex;
 			gap: 4em;
 			font-weight: $normal-font-weight;
+			z-index: 10;
 
 			li:hover {
 				transform: translateY(-1px);
