@@ -216,7 +216,7 @@ img {
 }
 
 .client h2 {
-  letter-spacing: clamp(.15rem, 1.8vw, 1.25rem);
+  letter-spacing: clamp(.15rem, 1.8vw, 1.05rem);
   color: #a7abae;
   text-align: center;
   font-family: Fraunces;
