@@ -13,20 +13,17 @@ hamburger.addEventListener("click", (e) => {
 	}
 });
 
-function scrollToSection(client1) {
-	var section = document.getElementById(client1);
-	section.scrollIntoView({ behavior: "smooth" });
+function scrollToSection(sectionId) {
+	var section = document.getElementById(sectionId);
+	if (section) {
+		section.scrollIntoView({ behavior: "smooth" });
+	}
 }
 
-function scrollToSection(social) {
-	var section = document.getElementById(social);
-	section.scrollIntoView({ behavior: "smooth" });
-}
-
-function scrollToSection(services) {
-	var section = document.getElementById(services);
-	section.scrollIntoView({ behavior: "smooth" });
-}
+// Example usage:
+// scrollToSection("client1");
+// scrollToSection("social");
+// scrollToSection("services");
 
 // Close the nav if the window is resized
 window.addEventListener("resize", () => {
