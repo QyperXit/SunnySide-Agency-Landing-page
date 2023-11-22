@@ -56,5 +56,5 @@ The landing page ought to be responsive, and the navigation should smoothly scro
 
 I relied on Kevin Powell's videos, which proved to be invaluable for learning and comprehending concepts that I implemented in the project.
 
-[sass-made-easy](https://www.youtube.com/watch?v=wYWf2m_yzBQ&t=946s)
+[sass-made-easy](https://www.youtube.com/watch?v=wYWf2m_yzBQ&t=946s) <br>
 [Learn CSS Grid the easy way](https://www.youtube.com/watch?v=rg7Fvvl3taU)
