@@ -53,7 +53,7 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 700px;
+  height: 800px;
   font-family: Barlow, sans-serif;
 }
 
@@ -168,7 +168,7 @@ img {
 
 .text- {
   place-content: center;
-  height: min(50vh, 40em);
+  height: 40em;
   padding-inline: min(10vw, 12em);
   display: grid;
 }
@@ -430,6 +430,10 @@ footer ul li:hover {
 }
 
 @media (width >= 150px) and (width <= 750px) {
+  header {
+    height: 700px;
+  }
+
   header nav .fa-bars {
     visibility: visible;
     cursor: pointer;
@@ -545,4 +549,3 @@ footer ul li:hover {
 }
 
 /*# sourceMappingURL=index.e8265c92.css.map */
-
