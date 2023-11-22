@@ -93,7 +93,7 @@ header {
 	// max-width: 1440px;
 	background-position: center;
 	background-size: cover;
-	height: 700px;
+	height: 800px;
 	background-image: url("https://i.ibb.co/S59fFKk/image-header.jpg");
 	// img {
 	// 	width: 40%;
@@ -118,7 +118,8 @@ header {
 	.downArrow {
 		width: 1.85em;
 		margin-inline: auto;
-		margin-top: 3.85em;
+		margin-top: 6.55em;
+		scale: 1.2;
 	}
 
 	nav {
@@ -220,10 +221,12 @@ img {
 .text- {
 	display: grid;
 	place-content: center;
-	height: min(40vh, 40em);
+	// height: min(50vh, 40em);
+	height: 40em;
 	padding-inline: min(10vw, 12em);
 	h2 {
-		margin-top: min(17vh, 12em);
+		// margin-top: min(17vh, 12em);
+		margin-top: 12em;
 		font-family: "Fraunces";
 		font-weight: 900;
 		font-size: $font-size-h2v;
@@ -269,7 +272,7 @@ img {
 	h2 {
 		font-family: "Fraunces";
 		font-weight: 900;
-		letter-spacing: clamp(0.15rem, 1.8vw, 1.25rem);
+		letter-spacing: clamp(0.15rem, 1.8vw, 1.05rem);
 		font-size: clamp(1rem, 1.8vw, 1.25rem);
 		color: $grayish-blue;
 		text-align: center;
@@ -513,6 +516,7 @@ footer {
 
 @media (min-width: 150px) and (max-width: 750px) {
 	header {
+		height: 700px;
 		nav {
 			.fa-bars {
 				position: absolute;
